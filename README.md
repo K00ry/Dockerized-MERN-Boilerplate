@@ -10,7 +10,8 @@ Note: You have to change the proxy in client/package.json from "http://localhost
 
 
 -For development using Docker containers: on a docker installed machine, run "docker-compose up" on root folder.
--To run Docker Production image: Run "docker-compose -f docker-compose.prod.yml up" on root folder..
+
+-To run Docker Production image: Run "docker-compose -f docker-compose.prod.yml up" on root folder.
 
 Note: if you wanna switch back from docker development to local development, you have to change the proxy in client/package.json back to "http://localhost:8080" and run the local development step.
 
